@@ -16,18 +16,14 @@ namespace LoggingKata.Test
         public void ShouldParse(string str)
         {
             //arrange
-            TacoParser tacoparser = new TacoParser
-            
-
+            TacoParser tacoparser = new TacoParser();
 
             //Act
-            ITrackable trackable 
+            ITrackable trackable = tacoparser.Parse(str);
 
             //Assert
-            Assert.NotNull(actual);
-            Assert.NotNull(actual.name);
-            Assert.Contains("Taco Bell", actual.Name);
-            Assert. 
+            Assert.NotNull(trackable);
+           
         }
 
         [Theory]
