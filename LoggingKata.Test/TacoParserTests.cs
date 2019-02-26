@@ -12,10 +12,22 @@ namespace LoggingKata.Test
         }
 
         [Theory]
-        [InlineData("Example")]
+        [InlineData("34.073638, -84.677017, Taco Bell Acworth")]
         public void ShouldParse(string str)
         {
-            // TODO: Complete Should Parse
+            //arrange
+            TacoParser tacoparser = new TacoParser
+            
+
+
+            //Act
+            ITrackable trackable 
+
+            //Assert
+            Assert.NotNull(actual);
+            Assert.NotNull(actual.name);
+            Assert.Contains("Taco Bell", actual.Name);
+            Assert. 
         }
 
         [Theory]
@@ -23,7 +35,14 @@ namespace LoggingKata.Test
         [InlineData("")]
         public void ShouldFailParse(string str)
         {
-            // TODO: Complete Should Fail Parse
+            //Arrange
+
+
+            //Act
+
+
+            //Assert
+
         }
     }
 }
