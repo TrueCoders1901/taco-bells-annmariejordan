@@ -50,7 +50,7 @@ namespace LoggingKata
 
                 }
             }
-                Console.WriteLine(tacoBell1.Name + "and" + tacoBell2.Name + " are the farthest from each other at " + farthestDistance + ".");
+                Console.WriteLine(tacoBell1.Name + " and " + tacoBell2.Name + " are the farthest from each other at " + farthestDistance + ".");
                 Console.ReadLine();
             // HINT:  You'll need two nested forloops
         }
